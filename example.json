@@ -1,0 +1,11 @@
+[{
+  "describe": "the something something api",
+  "url": "http://echo.jsontest.com/key/value/one/two",
+  "method": "get",
+  "data": {},
+  "response": {
+    "json": {
+      "a": "b"
+    }
+  }
+}]
