@@ -1,0 +1,44 @@
+{
+  "name": "battlesauce",
+  "version": "1.0.0",
+  "description": "battle test your rest apis with saucelabs",
+  "main": "index.js",
+  "bin": {
+    "battlesauce": "battlesauce.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "cors": "^2.7.1",
+    "expect.js": "^0.3.1",
+    "express": "^4.14.0",
+    "karma-spec-reporter": "^0.0.26",
+    "karma-webpack": "^1.7.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-mocha": "^1.1.1",
+    "karma-sauce-launcher": "^1.0.0",
+    "karma": "^1.1.2",
+    "standard": "^7.1.2",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qubitdigital/battlesauce.git"
+  },
+  "keywords": [
+    "rest",
+    "saucelabs"
+  ],
+  "author": "Alan Clarke <alan@qubit.com> (qubit.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qubitdigital/battlesauce/issues"
+  },
+  "homepage": "https://github.com/qubitdigital/battlesauce#readme"
+}
