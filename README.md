@@ -8,11 +8,16 @@ battle test your rest apis with saucelabs
 # motivation
 useful for catching issues e.g. with incorrect cross domain header configurations or bad JSON formatting
 
+# installation
+```
+npm install -g battlesauce
+```
+
 # usage
 ```
 export SAUCE_USERNAME='jimbob'
 export SAUCE_ACCESS_KEY='123456789'
-battletest api-spec.json
+battletest my-api-spec.json
 
 # note: if you omit the sauce credentials the test will just be run against your local chrome instance
 ```
